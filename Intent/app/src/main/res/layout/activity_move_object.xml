@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/dark_green"
+    tools:context=".MoveObjectActivity">
+    <TextView
+        android:id="@+id/goodieObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/goodie_received"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/author"
+        android:layout_below="@id/goodieObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:text="@string/author"
+        android:textStyle="italic|bold"/>
+    <TextView
+        android:id="@+id/period"
+        android:layout_below="@id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/white"
+        android:text="@string/time"/>
+</RelativeLayout>

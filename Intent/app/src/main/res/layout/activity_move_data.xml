@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/dark_green"
+    tools:context=".MoveDataActivity">
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/line_1"
+        android:textAllCaps="true"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/line2"
+        android:layout_below="@id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:text="@string/line_2"
+        android:textAllCaps="true"
+        android:textStyle="italic|bold"/>
+    <TextView
+        android:id="@+id/line3"
+        android:layout_below="@id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:text="@string/line_3"
+        android:textAllCaps="true"
+        android:textStyle="italic|bold"/>
+</RelativeLayout>
+

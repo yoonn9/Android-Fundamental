@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/cream"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/say_hello"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mountain"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/say_hello"
+        app:layout_constraintEnd_toEndOf="@+id/say_hello"
+        app:layout_constraintStart_toStartOf="@id/say_hello"
+        app:layout_constraintTop_toTopOf="@id/say_hello" />
+
+    <ImageButton
+        android:id="@+id/instant_goodie"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_margin="10dp"
+        android:background="#000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/plant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/say_hello"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instant_goodie"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/instant_goodie"
+        app:layout_constraintEnd_toEndOf="@+id/instant_goodie"
+        app:layout_constraintStart_toStartOf="@id/instant_goodie"
+        app:layout_constraintTop_toTopOf="@id/instant_goodie"/>
+
+    <ImageButton
+        android:id="@+id/choose_goodie"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_margin="10dp"
+        android:background="#000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/galaxy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/say_hello" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_your_goodie"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/choose_goodie"
+        app:layout_constraintEnd_toEndOf="@+id/choose_goodie"
+        app:layout_constraintStart_toStartOf="@+id/choose_goodie"
+        app:layout_constraintTop_toTopOf="@+id/choose_goodie" />
+
+    <ImageButton
+        android:id="@+id/more_unique"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_margin="10dp"
+        android:background="#000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/abs"
+        android:text="More Unique Goodie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/choose_goodie"
+        app:layout_constraintTop_toBottomOf="@id/instant_goodie" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/more_goodie"
+        android:textColor="@color/dark_green"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/more_unique"
+        app:layout_constraintEnd_toEndOf="@+id/more_unique"
+        app:layout_constraintStart_toStartOf="@+id/more_unique"
+        app:layout_constraintTop_toTopOf="@+id/more_unique" />
+
+    <ImageButton
+        android:id="@+id/call"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="8dp"
+        android:background="#000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/call"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/choose_goodie" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/call_loved_ones"
+        android:textColor="@color/dark_green"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/call"
+        app:layout_constraintEnd_toEndOf="@+id/call"
+        app:layout_constraintStart_toStartOf="@+id/call"
+        app:layout_constraintTop_toTopOf="@+id/call" />
+
+    <TextView
+        android:id="@+id/your_goodie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_goodie"
+        android:textColor="@color/dark_green"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/call"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

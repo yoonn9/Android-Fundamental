@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="helloworld">> Hello, world!_</string>
+    <string name="choose_quote">Choose quote</string>
+    <string name="success">Success</string>
+    <string name="time">Time</string>
+    <string name="glory">Glory</string>
+    <string name="choose">Choose</string>
+    <string name="lifeChoice">Life</string>
+    <string name="gloryOption">"The greatest glory in living lies not in never falling, but in rising every time we fall."</string>
+    <string name="successOption">"If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success."</string>
+    <string name="timeOption">"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking."</string>
+    <string name="lifeOption">"If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough."</string>
+    <string name="instant_goodie">Instant Goodie</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="choose_your_goodie">Choose Goodie</string>
+    <string name="more_goodie">More Goodie</string>
+    <string name="author">Author</string>
+    <string name="your_goodie">Your Goodie</string>
+    <string name="line_1">Line 1</string>
+    <string name="line_2">Line 2</string>
+    <string name="line_3">Line 3</string>
+    <string name="goodie_received">Goodie Received</string>
+    <string name="call_loved_ones">Call Loved Ones</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Activity</string>
+    <string name="result">Result</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="cm">cm</string>
+    <string name="kg">kg</string>
+</resources>
