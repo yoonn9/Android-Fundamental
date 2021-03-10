@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ListView</string>
+
+    <string-array name="data_character">
+        <item>Pinocchio</item>
+        <item>Dory</item>
+        <item>Peter pan</item>
+        <item>Mulan</item>
+        <item>The Lion King</item>
+    </string-array>
+
+    <string-array name="data_quote">
+        <item>"Always let your conscience be your guide."</item>
+        <item>"Just keep swimming!"</item>
+        <item>"Think happy thoughts."</item>
+        <item>"The flower that blooms in adversity is the most rare and beautiful of all."</item>
+        <item>"Oh yes, the past can hurt. But the way I see it, you can either run from it or learn from it."</item>
+    </string-array>
+
+    <array name="data_image">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+    </array>
+</resources>
