@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatActivity
 
 class JazzFragment : Fragment(), View.OnClickListener {
 
@@ -20,6 +21,8 @@ class JazzFragment : Fragment(), View.OnClickListener {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as AppCompatActivity).supportActionBar?.title = "Detail"
+
         val btnPlay: ImageButton = view.findViewById(R.id.playBtn)
         btnPlay.setOnClickListener(this)
     }
