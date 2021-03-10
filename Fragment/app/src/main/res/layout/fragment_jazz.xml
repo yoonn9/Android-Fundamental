@@ -1,0 +1,49 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".JazzFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/roomTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Select Music Room"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/playBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#d1757c"
+        android:src="@android:drawable/ic_media_play"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/roomTv" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playBtn"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif"
+        android:text="Smooth Jazz"
+        android:textColor="#a6a6a6"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/playBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
