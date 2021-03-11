@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="nameSet">Name</string>
+    <string name="usernameSet">Username : %s</string>
+    <string name="repositorySet">Repository : %s</string>
+    <string name="followersSet">Followers : %s</string>
+    <string name="followingSet">Following : %s</string>
+    <string name="companySet">Company : %s</string>
+    <string name="locationSet">Location : %s</string>
+    <!-- Other string resources-->
+
+    <string-array name="username">
+        <item>JakeWharton</item>
+        <item>fabpot</item>
+        <item>taylorotwell</item>
+        <item>ornicar</item>
+        <item>appleboy</item>
+        <item>c9s</item>
+    </string-array>
+
+    <string-array name="name">
+        <item>Jake Wharton</item>
+        <item>Fabien Potencier</item>
+        <item>Taylor Otwell</item>
+        <item>Thibault Duplessis</item>
+        <item>Bo-Yi Wu</item>
+        <item>Yo-An Lin</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Pittsburgh, PA, USA</item>
+        <item>Lille, France</item>
+        <item>Little Rock, AR</item>
+        <item>France</item>
+        <item>Hsinchu, Taiwan</item>
+        <item>Taipei, Taiwan</item>
+    </string-array>
+
+    <string-array name="repository">
+        <item>102</item>
+        <item>53</item>
+        <item>18</item>
+        <item>380</item>
+        <item>487</item>
+        <item>421</item>
+    </string-array>
+
+    <string-array name="company">
+        <item>Google, Inc.</item>
+        <item>Symfony/Blackfire</item>
+        <item>Laravel</item>
+        <item>lichess.org</item>
+        <item>Mediatek</item>
+        <item>AMIS/Maicoin</item>
+    </string-array>
+
+    <string-array name="followers">
+        <item>56995</item>
+        <item>11300</item>
+        <item>21500</item>
+        <item>3200</item>
+        <item>3800</item>
+        <item>1900</item>
+    </string-array>
+
+    <string-array name="following">
+        <item>12</item>
+        <item>0</item>
+        <item>0</item>
+        <item>174</item>
+        <item>278</item>
+        <item>839</item>
+    </string-array>
+
+    <string-array name="avatar">
+        <item>@drawable/user1</item>
+        <item>@drawable/user2</item>
+        <item>@drawable/user3</item>
+        <item>@drawable/user4</item>
+        <item>@drawable/user5</item>
+        <item>@drawable/user6</item>
+    </string-array>
+</resources>
