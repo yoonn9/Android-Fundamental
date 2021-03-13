@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Disney Quotes</string>
 
-    <string-array name="data_character">
+    <string-array name="data_disney">
         <item>Pinocchio</item>
         <item>Dory</item>
         <item>Peter pan</item>

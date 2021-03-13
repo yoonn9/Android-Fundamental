@@ -10,6 +10,6 @@
         android:id="@+id/rv_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_list"/>
+        tools:listitem="@layout/item_disney"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
